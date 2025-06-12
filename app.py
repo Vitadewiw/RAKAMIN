@@ -12,7 +12,6 @@ client = OpenAI(api_key="sk-ISI-DENGAN-KEY-VALID-ATAU-BIARKAN")
 
 # Sidebar
 st.sidebar.title("HR Attrition Prediction")
-use_simulation = st.sidebar.checkbox("Aktifkan Mode Simulasi", value=True)
 menu = st.sidebar.radio("Pilih Menu:", ["Home", "Prediction", "Batch Prediction"])
 
 st.title("HR Attrition Prediction")
